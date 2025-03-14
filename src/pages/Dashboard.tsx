@@ -7,9 +7,9 @@ export default function Dashboard() {
 
   // Example user details (replace with actual data from your backend or context)
   const userDetails = {
-    StudentName: "John David",
+    StudentName: "Alex Johnson",
     StudentId: "S123456", // Added missing key
-    ParentPhone: "+91 9876543210",
+    ParentPhone: "+1 (555) 123-4567",
     MedicalHistorySummary: "No major illnesses. Allergic to peanuts.",
   };
 

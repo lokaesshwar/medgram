@@ -11,6 +11,7 @@ import MedicalRecords from './pages/MedicalRecords';
 import Documents from './pages/Documents';
 import { AuthProvider } from './contexts/AuthContext';
 import Profile from './pages/profile';
+import FamilyCenter from './pages/FamilyCenter';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route path="/records" element={<MedicalRecords />} />
             <Route path="/documents" element={<Documents />} />
             <Route path="/profile" element={<Profile />} />
+            <Route path="/FamilyCenter" element={<FamilyCenter />} />
           </Route>
         </Routes>
         <Toaster position="top-right" />

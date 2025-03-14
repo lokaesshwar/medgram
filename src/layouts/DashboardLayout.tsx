@@ -34,6 +34,7 @@ export default function DashboardLayout() {
     { name: "Medical Records", href: "/records", icon: FileText },
     { name: "Documents", href: "/documents", icon: Files },
     { name: "Profile", href: "/profile", icon: User },
+    { name: "Family-Center", href: "/FamilyCenter", icon: User },
   ];
 
   return (
