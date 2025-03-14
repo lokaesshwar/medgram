@@ -31,7 +31,7 @@ export default function Dashboard() {
   ];
 
   // Handle downloading a medical record
-  const handleDownload = (fileUrl) => {
+  const handleDownload = (fileUrl: string) => {
     window.open(fileUrl, "_blank");
   };
 
