@@ -15,7 +15,7 @@ interface EmailParams {
   [key: string]: unknown;
 }
 
-// Function to send an email
+// Function to send email
 export const sendEmail = async (
   userEmail: string,
   userName: string,
