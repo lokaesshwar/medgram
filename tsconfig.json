@@ -1,7 +1,23 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "compilerOptions": {
+    "target": "ES6",                // Set target ECMAScript version
+    "module": "ESNext",              // Use ESNext module system
+    "moduleResolution": "node",      // Ensure correct module resolution
+    "jsx": "react-jsx",              // Enable JSX for React projects
+    "strict": true,                  // Enable strict type checking
+    "allowJs": true,                 // Allow JavaScript files
+    "checkJs": false,                // Prevent errors from JavaScript files
+    "noEmit": true,                  // Avoid emitting compiled output
+    "skipLibCheck": true,            // Ignore type definitions of external libraries
+    "esModuleInterop": true,         // Enable compatibility for CommonJS modules
+    "resolveJsonModule": true,       // Allow importing JSON files
+    "isolatedModules": true,         // Ensure every file can be compiled separately
+    "baseUrl": "./src",              // Ensure correct path resolution
+    "paths": {
+      "@components/*": ["components/*"],  // Example alias for easier imports
+      "@utils/*": ["utils/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "build"]
 }
