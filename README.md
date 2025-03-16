@@ -1,2 +1,2 @@
 # medgram
-Healthcare Management system for Students for IIT Indore Hackathon
+IIT Indore Hackathon - Healthcare Management system for Students
